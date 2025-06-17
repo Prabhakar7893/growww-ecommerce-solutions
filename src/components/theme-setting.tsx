@@ -8,7 +8,7 @@ const ThemeSetting = () => {
   const [settingOpen, setSettingOpen] = React.useState(false);
 
   useEffect(() => {
-    if (!theme) {
+    if (theme) {
       setTheme("dark");
     }
   }, [theme, setTheme]);
@@ -17,7 +17,7 @@ const ThemeSetting = () => {
 
   function handleOpenSetting() {
     setSettingOpen(!settingOpen);
-  };
+  }; 
 
   return (
     <div
@@ -40,14 +40,14 @@ const ThemeSetting = () => {
             </span>
             <input type="checkbox" id="tp-dir-toggler" checked={theme === "dark"} readOnly />
             <i className="tp-theme-dir-slide"></i>
-            <span
+            {/* <span
               onClick={() => setTheme("light")}
               className={`tp-theme-dir-ltr ${
                 theme === "light" ? "active" : ""
               }`}
             >
               Light
-            </span>
+            </span> */}
           </label>
         </div>
 
