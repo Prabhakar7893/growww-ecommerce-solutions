@@ -11,11 +11,22 @@ import g_2 from '@/assets/img/home-03/gallery/gal-2.jpg';
 import g_3 from '@/assets/img/home-03/gallery/gal-3.jpg';
 import g_4 from '@/assets/img/home-03/gallery/gal-4.jpg';
 import g_5 from '@/assets/img/home-03/gallery/gal-5.jpg';
+import p_1 from "@/assets/img/home-04/projects/agri-vrudhi-1.png";
+import p_2 from "@/assets/img/home-04/projects/agri-vrudhi-2.png";
+import p_3 from "@/assets/img/home-04/projects/subhkriti-1.png";
+import p_4 from "@/assets/img/home-04/projects/subhkriti-2.png";
+import p_5 from "@/assets/img/home-04/projects/kiwi-1.png";
+import p_6 from "@/assets/img/home-04/projects/kiwi-2.png";
+import p_7 from "@/assets/img/home-04/projects/mattaires-1.png";
+import p_8 from "@/assets/img/home-04/projects/mattaires-2.png";
 
 
 const gallery_images = [
   g_1, g_2, g_3, g_4, g_5, g_3, g_1, g_2, g_3, g_4, g_5, g_3
 ]
+// const gallery_images = [
+//   p_1, p_2, p_3, p_4, p_5, p_6, p_7, p_8, p_1, p_2, p_3, p_4
+// ]
 
 const imgStyle:CSSProperties = {height: "auto"};
 

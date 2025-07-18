@@ -50,7 +50,7 @@ const FaqMain = () => {
                       <div className="tm-hero-content">
                         <span className="tm-hero-subtitle">Liko Studio</span>
                         <h4 className="tm-hero-title tp-char-animation">
-                          FAQ Page
+                          FAQ Pagessss
                         </h4>
                       </div>
                       <div className="tm-hero-text tp_title_anim">

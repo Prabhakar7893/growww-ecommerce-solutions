@@ -22,6 +22,7 @@ import { textInvert } from "@/utils/text-invert";
 import { fadeAnimation, revelAnimationOne } from "@/utils/title-animation";
 import { projectThreeAnimation } from "@/utils/project-anim";
 import { ctaAnimation } from "@/utils/cta-anim";
+import HeroBannerOne from "@/components/hero-banner/hero-banner-one";
 
 const HomeFourMain = () => {
   useScrollSmooth();
@@ -50,12 +51,13 @@ const HomeFourMain = () => {
       <HeaderFour />
       {/* header area end */}
 
+
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main>
 
             {/* hero area start */}
-            <HeroBannerFour />
+            <HeroBannerOne />
             {/* hero area end */}
 
             {/* gallery area start */}

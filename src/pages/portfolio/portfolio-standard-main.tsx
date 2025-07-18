@@ -16,6 +16,8 @@ import BigText from "@/components/big-text";
 import { charAnimation, titleAnimation } from "@/utils/title-animation";
 import { imageRevealAnimation } from "@/utils/image-reveal-anim";
 import { hoverBtn } from "@/utils/hover-btn";
+import FooterFour from "@/layouts/footers/footer-four";
+import FooterOne from "@/layouts/footers/footer-one";
 
 const PortfolioStandardMain = () => {
   useScrollSmooth();
@@ -24,7 +26,7 @@ const PortfolioStandardMain = () => {
     document.body.classList.add("tp-magic-cursor");
     return () => {
       document.body.classList.remove("tp-magic-cursor");
-    }
+    }     
   }, []);
 
   useEffect(() => {
@@ -56,7 +58,7 @@ const PortfolioStandardMain = () => {
       <HeaderEleven />
       {/* header area end */}
 
-      <div id="smooth-wrapper">
+      <div id="smooth-wrapper"> 
         <div id="smooth-content">
           <main>
             {/* portfolio hero */}
@@ -67,22 +69,20 @@ const PortfolioStandardMain = () => {
               <div className="container">
                 <div className="row">
                   <div className="col-xl-12">
-                    <div className="tm-hero-content">
-                      <span className="tm-hero-subtitle">Liko Studio</span>
+                    <div className="tm-hero-content gw-ptfo-prj">
+                      <span className="tm-hero-subtitle">Growww Ecommerce</span>
                       <h4 className="tm-hero-title tp-char-animation">
-                        Our latest & great projects
+                        Our latest & great projects 
                       </h4>
                     </div>
                     <div className="tm-hero-text">
                       <p className="tp_title_anim">
-                        We’re a diverse team that works as fancies attention to
-                        details, enjoys beers on Friday nights and aspires to
-                        design the dent in the universe.
+                        with our comprehensive solutions. From website building and launch to performance marketing and shipping, we guide you to success. Over 95% of our clients come to us through recommendations, and for more than five years, we have consistently exceeded expectations. We take pride in never failing to go above and beyond client satisfaction.
                       </p>
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> 
             </div>
             {/* portfolio hero */}
 
@@ -91,12 +91,12 @@ const PortfolioStandardMain = () => {
             {/* portfolio area */}
 
             {/* big text */}
-            <BigText/>
+            <BigText/> 
             {/* big text */}
           </main>
 
           {/* footer area */}
-          <FooterTwo topCls="" />
+          <FooterFour topCls="" />
           {/* footer area */}
         </div>
       </div>

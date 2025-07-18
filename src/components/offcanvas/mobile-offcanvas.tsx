@@ -41,7 +41,7 @@ export default function MobileOffcanvas({openOffcanvas,setOpenOffcanvas}: IProps
           <div className="tp-offcanvas-main">
             <div className="tp-offcanvas-content">
               <h3 className="tp-offcanvas-title">Hello There!</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+              <p>From website design to marketing strategies, Growww offers genuine effort, expertise, and end-to-end e-commerce solutions for brand owners to thrive & grow online. </p>
             </div>
             <div className="tp-main-menu-mobile d-xl-none">
               <MobileMenus/>
@@ -64,13 +64,13 @@ export default function MobileOffcanvas({openOffcanvas,setOpenOffcanvas}: IProps
 
               <ul>
                 <li>
-                  <a href="tel:1245654">+ 4 20 7700 1007</a>
+                  <a href="tel:9866662226">9866662226</a>
                 </li>
                 <li>
-                  <a href="mailto:hello@diego.com">hello@diego.com</a>
+                  <a href="mailto:contact@growww.in">contact@growww.in</a>
                 </li>
                 <li>
-                  <a href="#">Avenue de Roma 158b, Lisboa</a>
+                  <a href="https://g.page/r/CeDUh5jhTvDHEBM">Opp. Hotel Sea-e-pearl, Near Beanboard, Dayal Nagar Colony, Vishalakshi Nagar, Visakhapatnam, Andhra Pradesh, 530043.</a>
                 </li>
               </ul>
             </div>
@@ -78,16 +78,10 @@ export default function MobileOffcanvas({openOffcanvas,setOpenOffcanvas}: IProps
               <h3 className="tp-offcanvas-title sm">Follow Us</h3>
               <ul>
                 <li>
-                  <a href="#"><InstagramTwo /></a>
+                  <a href="https://www.instagram.com/growww_ecommerce/"><InstagramTwo /></a>
                 </li>
                 <li>
-                  <a href="#"><Dribble /></a>
-                </li>
-                <li>
-                  <a href="#"> <Behance /></a>
-                </li>
-                <li>
-                  <a href="#"><Youtube /></a>
+                  <a href="https://www.youtube.com/channel/UC2CCtqNw62HM1HCaoU9y5hg"><Youtube /></a>
                 </li>
               </ul>
             </div>

@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { useTheme } from 'next-themes';
 
 const HeroBannerFour = () => {
-  const { theme } = useTheme();
+  const { theme } = useTheme(); 
 
   const handleScroll = (e) => {
     e.preventDefault();
@@ -33,8 +33,8 @@ const HeroBannerFour = () => {
               </span>
               <Link
                 className="tp-btn-black-2"
-                href="#grw-ftr-012"
-                onClick={handleScroll}
+                href="https://api.whatsapp.com/send?phone=919866662226&text=Hi%2C%20I%20visited%20your%20website%20and%20would%20like%20to%20talk%20to%20your%20team%20about%20my%20eCommerce%20project."
+                // onClick={handleScroll}
               >
                 Say Hello{' '}
                 <span className="p-relative">

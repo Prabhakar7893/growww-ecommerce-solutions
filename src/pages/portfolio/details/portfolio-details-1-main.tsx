@@ -91,7 +91,7 @@ const PortfolioDetailsOneMain = () => {
                               </div>
                               <div className="project-details-1-social">
                                  {showSocial && <div className="project-details-1-social-inner">
-                                    <Social/>
+                                    <Social/> 
                                  </div>}
                                  <div className="project-details-1-social-main">
                                     <a className="share-icon pointer" onClick={() => setShowSocial(!showSocial)}>

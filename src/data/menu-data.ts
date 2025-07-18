@@ -23,8 +23,8 @@ const menu_data:IMenuDT[] = [
   },
   {
     id: 2,
-    title: 'Web Development',
-    link: '#',
+    title: 'Services',
+    link: '/service',
     // pages_mega_menu: {
     //   first: {
     //     title: 'LIST TYPES',
@@ -60,8 +60,8 @@ const menu_data:IMenuDT[] = [
   },
   {
     id: 3,
-    title: 'Multichannel Marketing',
-    link: '/portfolio-standard',
+    title: 'Products',
+    link: '/growww-wato',
     // portfolio_mega_menus: {
     //   first: {
     //     title: 'PORTFOLIO LIST',
@@ -123,23 +123,14 @@ const menu_data:IMenuDT[] = [
   },
   {
     id: 4,
-    title: 'Payment Solutions', 
-    link: '/blog-modern',
+    title: 'Portfolio', 
+    link: '/portfolio-grid-col-4',
     // dropdown_menus: [
     //   { title: 'Modern', link: '/blog-modern' },
     //   { title: 'Classic Sidebar', link: '/blog-classic' },
     //   { title: 'Minimal List', link: '/blog-list' },
     //   { title: 'Post Single', link: '/blog-details/1' },
     //   { title: 'Post With Sidebar', link: '/blog-details-2' },
-    // ]
-  },
-  {
-    id: 5,
-    title: 'Login',
-    link: '/contact',
-    // dropdown_menus:[ 
-    //   { title: 'Contact', link: '/contact' },
-    //   { title: 'Get IN touch', link: '/contact-2' },
     // ]
   }
 ];

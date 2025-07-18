@@ -10,12 +10,20 @@ import b_5 from "@/assets/img/home-04/brand/brand-5.png";
 import b_6 from "@/assets/img/home-04/brand/brand-6.png";
 import b_7 from "@/assets/img/home-04/brand/brand-7.png";
 import b_8 from "@/assets/img/home-04/brand/brand-8.png";
+import gr_1 from "@/assets/img/allimages/3-1.png.webp";
+import gr_2 from "@/assets/img/allimages/4-1.png.webp";
+import gr_3 from "@/assets/img/allimages/5-1.png.webp";
+import gr_4 from "@/assets/img/allimages/6-1.png.webp";
+import gr_5 from "@/assets/img/allimages/7-1.png.webp";
+import gr_6 from "@/assets/img/allimages/8-1.png.webp";
+import { div } from "three/examples/jsm/nodes/Nodes.js";
+
 
 // brand_data
 const brand_data = [
   {
     id: 1,
-    brand: b_1,
+    brand: gr_1,
     texts: [
       "TopoChico.com",
       "TopoChico.com",
@@ -27,7 +35,7 @@ const brand_data = [
   },
   {
     id: 2,
-    brand: b_2,
+    brand: gr_2,
     texts: [
       "TopoChico.com",
       "TopoChico.com",
@@ -39,7 +47,7 @@ const brand_data = [
   },
   {
     id: 3,
-    brand: b_3,
+    brand: gr_3,
     texts: [
       "TopoChico.com",
       "TopoChico.com",
@@ -51,7 +59,7 @@ const brand_data = [
   },
   {
     id: 4,
-    brand: b_4,
+    brand: gr_4,
     texts: [
       "TopoChico.com",
       "TopoChico.com",
@@ -63,7 +71,7 @@ const brand_data = [
   },
   {
     id: 5,
-    brand: b_5,
+    brand: gr_5,
     texts: [
       "TopoChico.com",
       "TopoChico.com",
@@ -75,7 +83,7 @@ const brand_data = [
   },
   {
     id: 6,
-    brand: b_6,
+    brand: gr_6,
     texts: [
       "TopoChico.com",
       "TopoChico.com",
@@ -87,7 +95,7 @@ const brand_data = [
   },
   {
     id: 7,
-    brand: b_7,
+    brand: gr_1,
     texts: [
       "TopoChico.com",
       "TopoChico.com",
@@ -99,7 +107,7 @@ const brand_data = [
   },
   {
     id: 8,
-    brand: b_8,
+    brand: gr_2,
     texts: [
       "TopoChico.com",
       "TopoChico.com",
@@ -111,19 +119,20 @@ const brand_data = [
   },
 ];
 
+
 // brand items
 export function BrandItems() {
   return (
     <>
       {brand_data.map((item) => (
-        <div key={item.id} className="col-xl-3 col-lg-3 col-md-6">
-          <div className="tp-brand-4-item p-relative">
-            <Image src={item.brand} alt="brand" style={{ height: "auto" }} />
-            <div className="tp-brand-4-line-text d-flex align-items-center">
+        <div key={item.id} className="col-xl-3 col-lg-3 col-md-6 growww-size-3">
+          <div className="tp-brand-4-item p-relative growww-brand-item">
+            <Image src={item.brand} alt="brand" style={{ height: "auto" }} className="growww-serv-featured-clients" />
+            {/* <div className="tp-brand-4-line-text d-flex align-items-center">
               {item.texts.map((text, index) => (
                 <span key={index}>{text}</span>
               ))}
-            </div>
+            </div> */}
           </div>
         </div>
       ))}

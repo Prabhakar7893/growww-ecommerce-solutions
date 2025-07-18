@@ -11,37 +11,45 @@ import port_5 from "@/assets/img/home-03/portfolio/port-5.jpg";
 import port_6 from "@/assets/img/home-03/portfolio/port-6.jpg";
 import port_7 from "@/assets/img/home-03/portfolio/port-7.jpg";
 import port_8 from "@/assets/img/home-03/portfolio/port-8.jpg";
+import p_1 from "@/assets/img/home-04/projects/agri-vrudhi-1.png";
+import p_2 from "@/assets/img/home-04/projects/agri-vrudhi-2.png";
+import p_3 from "@/assets/img/home-04/projects/subhkriti-1.png";
+import p_4 from "@/assets/img/home-04/projects/subhkriti-2.png";
+import p_5 from "@/assets/img/home-04/projects/kiwi-1.png";
+import p_6 from "@/assets/img/home-04/projects/kiwi-2.png";
+import p_7 from "@/assets/img/home-04/projects/mattaires-1.png";
+import p_8 from "@/assets/img/home-04/projects/mattaires-2.png";
 import Link from "next/link";
 
 // portfolio data
 const project_data = [
   {
     id: 1,
-    img_1: port_1,
-    img_2: port_2,
-    meta: "DEC 2024 . Creative",
-    title: "Pellente dapibus",
+    img_1: p_1,
+    img_2: p_2,
+    meta: "APRIL 2025 . Creative",
+    title: "Agri Vrudhi",
   },
   {
     id: 2,
-    img_1: port_3,
-    img_2: port_4,
+    img_1: p_3,
+    img_2: p_4,
     meta: "NOV 2024 . Creative",
-    title: "Chania tourism",
+    title: "Subhkriti",
   },
   {
     id: 3,
-    img_1: port_5,
-    img_2: port_6,
+    img_1: p_5,
+    img_2: p_6,
     meta: "OCT 2024 . Creative",
-    title: "Fashion sentence",
+    title: "Kiwi",
   },
   {
     id: 4,
-    img_1: port_7,
-    img_2: port_8,
-    meta: "SEP 2024 . Creative",
-    title: "Fashion sentence",
+    img_1: p_7,
+    img_2: p_8,
+    meta: "SEP 2024 . Creative", 
+    title: "Madhurika Attires",
   },
 ];
 

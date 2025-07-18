@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 const PortfolioGridColFourPage = () => {
   return (
-    <PortfolioGridColFourMain/>
+    <PortfolioGridColFourMain/> 
   );
 };
 

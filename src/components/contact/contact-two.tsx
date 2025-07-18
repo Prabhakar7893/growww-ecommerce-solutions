@@ -33,7 +33,7 @@ export default function ContactTwo() {
           <div className="col-xl-7">
             <div className="cn-contactform-wrap">
               {/* form start */}
-              <ContactForm />
+              <ContactForm /> 
               {/* form end */}
             </div>
           </div>

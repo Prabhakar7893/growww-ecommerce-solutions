@@ -20,6 +20,8 @@ import FooterTwo from "@/layouts/footers/footer-two";
 // animation
 import { charAnimation, fadeAnimation } from "@/utils/title-animation";
 import { servicePanel } from "@/utils/panel-animation";
+import FooterFour from "@/layouts/footers/footer-four";
+import HeaderFour from "@/layouts/headers/header-four";
 
 const ServiceMain = () => {
   useScrollSmooth();
@@ -36,7 +38,7 @@ const ServiceMain = () => {
   return (
     <Wrapper>
       {/* header area start */}
-      <HeaderEleven />
+      <HeaderFour />
       {/* header area end */}
 
       <div id="smooth-wrapper">
@@ -46,8 +48,8 @@ const ServiceMain = () => {
             <ServiceHero />
             {/* service hero */}
 
-            {/* service area */}
-            <div className="tp-service-5-area sv-service-style pb-70">
+            {/* service area */} 
+            <div className="tp-service-5-area sv-service-style pb-70 growww-service-area">
               <div className="container container-1530">
                 <div className="row">
                   <div className="col-xl-12">
@@ -57,7 +59,7 @@ const ServiceMain = () => {
                         Services
                       </span>
                       <h4 className="tp-service-5-title">
-                        We strongly believe that only design reinforced by{" "}
+                       Find out more about our process of turning ideas into reality{" "}
                         <br />
                         strategy can provide real results.
                       </h4>
@@ -77,6 +79,7 @@ const ServiceMain = () => {
 
             {/* brand area */}
             <div className="tp-brand-4-area pt-120 pb-120">
+              <h4 style={{color: "#F5F7F5"}}>Few Of Our Notable Clients</h4>
               <div className="container">
                 <div className="row gx-0">
                   <BrandItems />
@@ -95,7 +98,7 @@ const ServiceMain = () => {
           </main>
 
           {/* footer area */}
-          <FooterTwo topCls="" />
+          <FooterFour topCls="" />
           {/* footer area */}
         </div>
       </div>

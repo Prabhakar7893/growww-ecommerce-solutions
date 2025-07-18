@@ -23,14 +23,15 @@ export default function FooterFour() {
             <div className="col-xl-4 col-lg-6 col-md-6 mb-60">
               <div className="tp-footer-3-widget-wrapper footer-col-3-1">
                 <div className="tp-footer-3-widget mb-40">
-                  <h4 className="tp-footer-3-title">Website map</h4>
+                  <h4 className="tp-footer-3-title">Quick Links</h4>
                   <div className="tp-footer-3-menu">
                     <ul>
                       <li><a href="#">Home</a></li>
-                      <li><a href="#">About</a></li>
-                      <li><a href="#">Landing</a></li>
-                      <li><a href="#">Blog</a></li>
-                      <li><a href="#">Contact</a></li>
+                      <li><a href="#">Design</a></li>
+                      <li><a href="#">Development</a></li>
+                      <li><a href="#">Marketing</a></li>
+                      <li><a href="/portfolio-standard">Portfolio</a></li>
+                      <li><a href="#">Cart</a></li>
                     </ul>
                   </div>
                 </div>

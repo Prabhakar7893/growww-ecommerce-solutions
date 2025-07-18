@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 const HomePageFour = () => {
   return (
-    <HomeFourMain/>
+    <HomeFourMain/> 
   );
 };
 

@@ -7,7 +7,7 @@ import ser_hero_shape from "@/assets/img/inner-service/hero/hero-shape-1.jpg";
 
 export default function ServiceHero() {
   return (
-    <div className="sv-hero-area sv-hero-ptb">
+    <div className="sv-hero-area sv-hero-ptb growww-serv-mbl">
       <div className="container container-1530">
         <div className="row">
           <div className="col-xl-10">
@@ -16,7 +16,7 @@ export default function ServiceHero() {
                 Experience <br /> the best services.
               </h4>
               <p className="tp_fade_bottom">
-                Fulfilled direction use continual set him propriety continued.
+                Empower your online business with our comprehensive solutions. From website building and launch to performance marketing and shipping, we guide you to success.
               </p>
             </div>
           </div>

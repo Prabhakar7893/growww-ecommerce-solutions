@@ -7,58 +7,66 @@ const portfolio_data = [
   {
     id: 1,
     img: "/assets/img/inner-project/portfolio-col-2/port-4.jpg",
-    category: "Concept",
+    category: "Clothing & Jewellery",
     year: "2024",
-    title: "Lectus",
+    title: "Arya Collections",
+    sitelink: "https://aryacollections.com/",
   },
   {
     id: 2,
-    img: "/assets/img/inner-project/portfolio-col-2/port-3.jpg",
-    category: "Branding",
+    img: "/assets/img/inner-project/portfolio-col-2/port-4.jpg",
+    category: "Booking",
     year: "2024",
-    title: "The Stage",
+    title: "Brham by Brahm",
+    sitelink: "https://brham.com/",
   },
   {
     id: 3,
-    img: "/assets/img/inner-project/portfolio-col-2/port-2.jpg",
-    category: "Branding",
-    year: "2024",
-    title: "Art Direction",
+    img: "/assets/img/inner-project/portfolio-col-2/port-3.jpg",
+    category: "Jewellery",
+    year: "2025",
+    title: "Raveendra Gold",
+    sitelink: "https://raveendragoldcoveringworks.com/",
   },
   {
     id: 4,
-    img: "/assets/img/inner-project/portfolio-col-2/port-1.jpg",
-    category: "Branding",
-    year: "2024",
-    title: "Petit Navire",
+    img: "/assets/img/inner-project/portfolio-col-2/port-2.jpg",
+    category: "Fashion",
+    year: "2025",
+    title: "SLS Fashion World",
+    sitelink: "https://slsfashionworld.com/",
   },
   {
     id: 5,
-    img: "/assets/img/inner-project/portfolio-col-2/port-5.jpg",
-    category: "Branding",
-    year: "2024",
-    title: "Big dream",
+    img: "/assets/img/inner-project/portfolio-col-2/port-1.jpg",
+    category: "Clothing",
+    year: "2025",
+    title: "Madhurika Attires",
+    sitelink: "https://madhurikaattires.com/",
   },
   {
     id: 6,
-    img: "/assets/img/inner-project/portfolio-col-2/port-6.jpg",
-    category: "Branding",
-    year: "2024",
-    title: "The Stage",
+    img: "/assets/img/inner-project/portfolio-col-2/port-5.jpg",
+    category: "Food Delivery",
+    year: "2025",
+    title: "My Indian Store",
+    sitelink: "https://myindianstore.com.au/",
   },
   {
     id: 7,
-    img: "/assets/img/inner-project/portfolio-col-2/port-7.jpg",
-    category: "Creative",
-    year: "2024",
-    title: "Big dream",
+    img: "/assets/img/inner-project/portfolio-col-2/port-6.jpg",
+    category: "Gifts",
+    year: "2025",
+    title: "Subhkriti",
+    sitelink: "https://subhkriti.com/",
   },
   {
     id: 8,
-    img: "/assets/img/inner-project/portfolio-col-2/port-8.jpg",
-    category: "Creative",
+    img: "/assets/img/inner-project/portfolio-col-2/port-7.jpg",
+    category: "Booking",
     year: "2024",
-    title: "Big dream",
+    title: "Brham by Brahm",
+    sitelink: "https://brham.com/",
   },
 ];
 
@@ -75,7 +83,7 @@ export default function PortfolioGridFourColArea({style_2=false}:IProps) {
           {portfolio_data.map((item) => (
             <div key={item.id} className="col-xl-3 col-lg-6 col-md-6">
               <div className="tp-project-5-2-thumb mb-30 p-relative not-hide-cursor" data-cursor="View<br>Demo">
-                <Link href="/portfolio-details-2" className="tp_img_reveal cursor-hide">
+                <Link href={item.sitelink} className="tp_img_reveal cursor-hide" target="_blank">
                   <div className="tp_img_reveal">
                     <Image
                       src={item.img}
@@ -103,7 +111,7 @@ export default function PortfolioGridFourColArea({style_2=false}:IProps) {
               <div className="tp-hover-btn-wrapper">
                 <Link
                   className="tp-btn-circle style-2 tp-hover-btn-item tp-hover-btn"
-                  href="/portfolio-grid-col-2"
+                  href="" style={{display: "none"}}
                 >
                   <span className="tp-btn-circle-text">
                     More <br /> Projects

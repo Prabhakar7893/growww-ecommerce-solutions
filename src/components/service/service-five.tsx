@@ -9,20 +9,20 @@ import s_3 from "@/assets/img/home-01/service/service-icon-3.png";
 const service_data = [
   {
     id: 1,
-    title: "Branding",
-    desc: "Branding is one of the most important ingredients for the success of any business.",
+    title: "Brand Strategy",
+    desc: "Brand strategy is the blueprint for how a company presents itself to the world. A well-crafted strategy lays the  ➤ Foundation for consistent brand experiences that resonate with target audiences.",
     icon: s_2,
   },
   {
     id: 2,
-    title: "Website design",
-    desc: "The perfect cocktail should still look and taste perfect no matter the size of the glass you serve it in.",
+    title: "Award-Winning design",
+    desc: "From envisioning your brand’s identity to crafting compelling logos and  ➤ Packaging, our comprehensive services encompass  ➤ Art Direction,  ➤ Brand Guidelines,  ➤ Logo & Trademark and  ➤ Branding Identity solutions.",
     icon: s_1,
   },
   {
     id: 3,
-    title: "Marketing",
-    desc: "We take that same approach with the apps & websites we create. you go there because of the overall experience.",
+    title: "Future-Proof Development",
+    desc: "Development is the art of crafting dynamic, interactive, and user-friendly   ➤ Ecommerce Websites and   ➤ Apps. It’s about crafting seamless digital experiences that captivate audiences across various platforms.",
     icon: s_3,
   },
 ];

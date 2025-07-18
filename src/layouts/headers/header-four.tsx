@@ -9,6 +9,7 @@ import logo_2 from '@/assets/img/logo/logo-white.png';
 import useSticky from "@/hooks/use-sticky";
 import CartOffcanvas from "@/components/offcanvas/cart-offcanvas";
 import MobileOffcanvas from "@/components/offcanvas/mobile-offcanvas";
+import AccountProfile from "@/components/account/account-profile";
 
 
 export default function HeaderFour() {
@@ -48,6 +49,13 @@ export default function HeaderFour() {
                       </nav>
                     </div>
                     <div className="tp-header-3-cart p-relative">
+                      <button className="userlogin-open-btn">
+                        <span>
+                          <a href="https://account.growww.in/?_gl=1*1yschv5*_gcl_au*MTQwNjU3ODczMy4xNzQ5NzkzMjky">
+                            <i className="fa-regular fa-user"></i>
+                            </a>
+                        </span>
+                      </button>
                       <button className="cartmini-open-btn" onClick={() => setOpenCartMini(true)}>
                         <span>
                           <Cart clr="white" />
@@ -58,9 +66,9 @@ export default function HeaderFour() {
                   </div>
                 </div>
               </div>
-              <div className="col-xl-2 col-lg-6 col-md-6 col-6" style={{display: "none"}}>
+              <div className="col-xl-2 col-lg-6 col-md-6 col-6">
                 <div className="tp-header-3-right d-flex align-items-center justify-content-end">
-                  <div className="tp-header-3-social d-none d-sm-block">
+                  {/* <div className="tp-header-3-social d-none d-sm-block">
                     <a href="https://g.page/r/CeDUh5jhTvDHEBM">
                       <i className="fa-brands fa-google"></i>
                     </a>
@@ -73,7 +81,7 @@ export default function HeaderFour() {
                     <a href="https://www.linkedin.com/company/growww-official">
                       <i className="fa-brands fa-linkedin"></i>
                     </a>
-                  </div>
+                  </div> */}
                   <button onClick={() => setOpenOffCanvas(true)} className="tp-header-3-bar tp-offcanvas-open-btn d-xl-none">
                     <i className="fa-solid fa-bars"></i>
                   </button>

@@ -16,6 +16,8 @@ import FooterTwo from "@/layouts/footers/footer-two";
 import { hoverBtn } from "@/utils/hover-btn";
 import {charAnimation,fadeAnimation,titleAnimation} from "@/utils/title-animation";
 import { imageRevealAnimation } from "@/utils/image-reveal-anim";
+import FooterFour from "@/layouts/footers/footer-four";
+import HeaderFour from "@/layouts/headers/header-four";
 
 const PortfolioGridColFourMain = () => {
   useScrollSmooth();
@@ -29,7 +31,7 @@ const PortfolioGridColFourMain = () => {
 
   useEffect(() => {
     if(typeof window !== 'undefined' && document.querySelector('.tp-magic-cursor')) {
-      cursorAnimation();
+      cursorAnimation(); 
     }
   },[]);
 
@@ -54,11 +56,11 @@ const PortfolioGridColFourMain = () => {
       {/* magic cursor end */}
 
       {/* header area start */}
-      <HeaderEleven />
+      <HeaderFour />
       {/* header area end */}
 
       <div id="smooth-wrapper">
-        <div id="smooth-content">
+        <div id="smooth-content"> 
           <main>
             {/* portfolio hero */}
             <div className="tm-hero-area tm-hero-ptb">
@@ -66,16 +68,14 @@ const PortfolioGridColFourMain = () => {
                 <div className="row">
                   <div className="col-xl-12">
                     <div className="tm-hero-content">
-                      <span className="tm-hero-subtitle">Liko Studio</span>
+                      <span className="tm-hero-subtitle">Growww Ecommerce Solutions</span>
                       <h4 className="tm-hero-title fs-220 tp-char-animation">
-                        Classic Grid
+                        Selected Work
                       </h4>
                     </div>
                     <div className="tm-hero-text tp_title_anim">
                       <p>
-                        We’re a diverse team that works as fancies attention to
-                        details, enjoys beers on Friday nights and aspires to
-                        design the dent in the universe.
+                        Over 95% of our clients come to us through recommendations, and for more than five years, we have consistently exceeded expectations. We take pride in never failing to go above and beyond client satisfaction.
                       </p>
                     </div>
                   </div>
@@ -94,7 +94,8 @@ const PortfolioGridColFourMain = () => {
           </main>
 
           {/* footer area */}
-          <FooterTwo topCls="" />
+          {/* <FooterTwo topCls="" /> */}
+          {<FooterFour />}
           {/* footer area */}
         </div>
       </div>

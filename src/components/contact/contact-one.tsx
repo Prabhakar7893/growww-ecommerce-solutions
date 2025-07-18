@@ -21,8 +21,8 @@ export default function ContactOne() {
             <div className="tp-cta-icon">
               <Image src={cta} alt="cta-img" />
             </div>
-            <div className="tp-cta-btn-box">
-              <Link className="tp-btn-zikzak p-relative" href="/contact">
+            <div className="tp-cta-btn-box" >
+              <Link className="tp-btn-zikzak p-relative" href="https://api.whatsapp.com/send?phone=919866662226&text=Hi%2C%20I%20visited%20your%20website%20and%20would%20like%20to%20talk%20to%20your%20team%20about%20my%20eCommerce%20project.">
                 <span className="zikzak-content">
                   Get <br /> In Touch
                   <RightArrow clr="#19191A" />
