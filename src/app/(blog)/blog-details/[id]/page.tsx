@@ -2,19 +2,18 @@ import { Metadata } from "next";
 import { blog_data } from "@/data/blog-data";
 import BlogDetailsMain from "@/pages/blog/blog-details";
 
-type BlogDetailsPageProps = {
+export const metadata: Metadata = {
+  title: "Liko - Blog Details page",
+};
+
+type Props = {
   params: {
     id: string;
   };
 };
 
-export const metadata: Metadata = {
-  title: "Liko - Blog Details page",
-};
-
-export default function BlogDetailsPage({ params }: BlogDetailsPageProps) {
-  const blog = blog_data.find((blog) => blog.id === Number(params.id));
-
+export default async function BlogDetailsPage({ params }: Props) {
+  const blog = blog_data.find((b) => b.id === Number(params.id));
   return blog ? (
     <BlogDetailsMain blog={blog} />
   ) : (
