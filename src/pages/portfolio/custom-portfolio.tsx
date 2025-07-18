@@ -2,7 +2,8 @@ import { useState } from "react";
 import HeaderFour from "@/layouts/headers/header-four";
 import p_1 from "@/assets/img/home-04/portfolio/images/agrivrudhi.png";
 import Link from "next/link";
-import "../../../.next/static/css/app/layout.css";
+//import "../../../.next/static/css/app/layout.css";
+import '../../styles/layout.css'
 import FooterFour from "@/layouts/footers/footer-four";
 
 const Portfolio = () => {
