@@ -6,10 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "pages:build": "npx @cloudflare/next-on-pages",
-    "preview": "npm run pages:build && wrangler pages dev",
-    "deploy": "npm run pages:build && wrangler pages deploy"
+    "lint": "next lint"
   },
   "dependencies": {
     "@gsap/react": "^2.1.1",
@@ -46,7 +43,6 @@
     "yup": "^1.6.1"
   },
   "devDependencies": {
-    "@cloudflare/next-on-pages": "^1.13.12",
     "@types/imagesloaded": "^4.1.6",
     "@types/isotope-layout": "^3.0.13",
     "@types/jquery": "^3.5.29",
