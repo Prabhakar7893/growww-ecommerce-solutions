@@ -12,7 +12,7 @@ export default function ServiceHero() {
         <div className="row">
           <div className="col-xl-10">
             <div className="sv-hero-title-box">
-              <h4 className="sv-hero-title tp-char-animation">
+              <h4 className="sv-hero-title tp-char-animation growww-char-animation">
                 Experience <br /> the best services.
               </h4>
               <p className="tp_fade_bottom">

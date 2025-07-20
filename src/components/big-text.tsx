@@ -14,7 +14,7 @@ export default function BigText({cls=""}: IProps) {
           <span>FUTURE &nbsp; PROOF &nbsp; DEVELOPMENT</span>
           <span>ECOMMERCE &nbsp; SOLUTIONS</span>
         </div>
-        <div className="sv-big-text-box">
+        <div className="sv-big-text-box growww-big-text">
           <h4 className="sv-big-text tp-char-animation">
             <Link href="https://api.whatsapp.com/send?phone=919866662226&text=Hi%2C%20I%20visited%20your%20website%20and%20would%20like%20to%20talk%20to%20your%20team%20about%20my%20eCommerce%20project">Get in Touch</Link>
           </h4>

@@ -159,7 +159,7 @@ const GrowwwWatoMain = () => {
 
                             {/* Growww wato Area starts here */}
 
-                            <div className="fq-faq-area fq-faq-bdr pt-80 pb-140">
+                            <div className="fq-faq-area fq-faq-bdr pt-80 pb-140 growww-faq-area">
                               <div className="container">
                                 <div className="row">
                                   <div className="col-xl-8 col-lg-8">
@@ -204,7 +204,7 @@ const GrowwwWatoMain = () => {
 
                             {/* Growww wato area ends here */}
                 
-                            <div className="tp-award-2-area tpaward tp-award-2-space p-relative fix">
+                            <div className="tp-award-2-area tpaward tp-award-2-space p-relative fix growww-wato-why">
                               <div className="tp-award-2-shape">
                                 <span className="tp-award-2-circle"></span>
                                 <span className="tp-award-2-img">

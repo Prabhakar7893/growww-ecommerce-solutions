@@ -170,8 +170,8 @@ export const mobile_menu_data:{
   },
   {
     id: 2,
-    title: 'Pages',
-    link: '#',
+    title: 'Services',
+    link: '/service',
     dropdown_menus:[
       { title: 'ABOUT US', link: '/about-us' },
       { title: 'FAQ Page', link: '/faq' },

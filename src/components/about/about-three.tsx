@@ -48,7 +48,7 @@ export default function AboutThree() {
               <p className="mb-45 tp_fade_bottom">
                 From intuitive UX/UI design to robust development, we provide everything you need to launch and scale a thriving e-commerce platform tailored to your unique vision.
               </p>
-              <Link className="tp-btn-black-2 tp_fade_bottom" href="/about-us">
+              <Link className="tp-btn-black-2 tp_fade_bottom" href="/service">
                 About Us
                 <span className="p-relative">
                   <RightArrowTwo />

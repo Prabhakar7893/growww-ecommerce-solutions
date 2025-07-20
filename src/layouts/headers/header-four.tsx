@@ -82,7 +82,7 @@ export default function HeaderFour() {
                       <i className="fa-brands fa-linkedin"></i>
                     </a>
                   </div> */}
-                  <button onClick={() => setOpenOffCanvas(true)} className="tp-header-3-bar tp-offcanvas-open-btn d-xl-none">
+                  <button onClick={() => setOpenOffCanvas(true)} className="tp-header-3-bar tp-offcanvas-open-btn d-xl-none growww-offcanvas-opn-btn">
                     <i className="fa-solid fa-bars"></i>
                   </button>
                 </div>

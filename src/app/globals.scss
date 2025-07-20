@@ -173,9 +173,99 @@ div{
   font-weight: 300;
   font-size: 150px;
 }
+.tp-video-3-area {
+  display: none !important;
+}
 // Responsiveness CSS for entire site
 @media only screen and (max-width: 768px){
-  .growww-serv-mbl{
-    
+  .tp-hero-title{
+    font-size: 100px !important;
+  }
+  .tp-section-title-200{
+    font-size: 132px !important;
+  }
+  .growww-mbl-menu ul {
+    color: #fff;
+    list-style-type: none;
+    line-height: 2;
+    margin-bottom: 20px;
+  }
+  .growww-mbl-menu ul li a{
+    font-size: 18px !important;
+  }
+  .growww-offcanvas-opn-btn{
+    border: 1px solid #fff !important;
+  }
+  .growww-offcanvas-opn-btn i::before{
+    color: #fff !important;
+  }
+  .growww-serv-mbl .growww-char-animation,
+  .growww-wato-hero h4,
+  .growww-char-animation {
+    font-size: 80px;
+    letter-spacing: 1px;
+  }
+  .growww-serv-mbl p{
+    font-size: 20px;
+  }
+  .growww-client-area {
+    padding: 50px 20px;
+  }
+  .growww-big-text h4 {
+    word-spacing: 20px;
+  }
+  .growww-wato-desc {
+    font-size: 36px !important;
+  }
+  .growww-faq-area {
+    padding-top: 0 !important;
+  }
+  .growww-wato-why {
+    padding-bottom: 208px !important;
+  }
+  .tm-hero-title.fs-220 {
+    font-size: 80px !important;
+    letter-spacing: 1px;
   }
 }
+
+// Media queries for max 425px
+@media only screen and (max-width: 430px){
+  .growww-big-text h4{
+    font-size: 50px;
+    letter-spacing: 0;
+    word-spacing: 10px;
+  }
+  .growww-serv-mbl .growww-char-animation,
+  .growww-wato-hero h4,
+  .growww-char-animation {
+    font-size: 63px;
+    letter-spacing: 1px;
+  }
+  .growww-wato-desc {
+    font-size: 20px !important;
+  }
+  .tp-award-2-title {
+    letter-spacing: 1px !important;
+  }
+  .tp-section-title-200 {
+    font-size: 100px !important;
+  }
+}
+ @media only screen and (max-width: 400px){
+  .tp-section-title-200 {
+    font-size: 85px !important;
+  }
+  .growww-char-animation {
+    font-size: 60px !important;
+  }
+  .growww-wato-hero h4{
+    font-size: 57px;
+  }
+  .growww-wato-desc {
+    font-size: 20px !important;
+  }
+  .tm-hero-title.fs-220 {
+    font-size: 57px !important;
+  }
+ }

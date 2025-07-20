@@ -69,7 +69,7 @@ const PortfolioGridColFourMain = () => {
                   <div className="col-xl-12">
                     <div className="tm-hero-content">
                       <span className="tm-hero-subtitle">Growww Ecommerce Solutions</span>
-                      <h4 className="tm-hero-title fs-220 tp-char-animation">
+                      <h4 className="tm-hero-title fs-220 tp-char-animation growww-char-animation">
                         Selected Work
                       </h4>
                     </div>

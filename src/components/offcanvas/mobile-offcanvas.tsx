@@ -9,6 +9,7 @@ import gallery_2 from "@/assets/img/menu/offcanvas/offcanvas-2.jpg";
 import gallery_3 from "@/assets/img/menu/offcanvas/offcanvas-3.jpg";
 import gallery_4 from "@/assets/img/menu/offcanvas/offcanvas-4.jpg";
 import MobileMenus from "./mobile-menus";
+import HeaderMenus from "@/layouts/headers/header-menus";
 
 const gallery_images = [gallery_1, gallery_2, gallery_3, gallery_4];
 
@@ -43,8 +44,9 @@ export default function MobileOffcanvas({openOffcanvas,setOpenOffcanvas}: IProps
               <h3 className="tp-offcanvas-title">Hello There!</h3>
               <p>From website design to marketing strategies, Growww offers genuine effort, expertise, and end-to-end e-commerce solutions for brand owners to thrive & grow online. </p>
             </div>
-            <div className="tp-main-menu-mobile d-xl-none">
-              <MobileMenus/>
+            <div className="tp-main-menu-mobile d-xl-none growww-mbl-menu">
+              {/* <MobileMenus/> */}
+              <HeaderMenus />
             </div>
             <div className="tp-offcanvas-gallery">
               <div className="row gx-2">
