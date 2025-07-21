@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 };
 
 // Correctly typed according to Next.js App Router dynamic route
-interface BlogDetailsPageProps {
+type BlogDetailsPageProps {
   params: {
     id: string;
   };
