@@ -5,15 +5,15 @@ import { blog_data } from "@/data/blog-data";
 import BlogDetailsMain from "@/pages/blog/blog-details";
 
 export const metadata: Metadata = {
-  title: "Liko - Blog Details page",
+  title: "Growww - Blog Details page",
 };
 
 // Correctly typed according to Next.js App Router dynamic route
-type BlogDetailsPageProps {
+type BlogDetailsPageProps = {
   params: {
     id: string;
   };
-}
+};
 
 export default function BlogDetailsPage({ params }: BlogDetailsPageProps) {
   const blog = blog_data.find((blog) => blog.id === Number(params.id));
