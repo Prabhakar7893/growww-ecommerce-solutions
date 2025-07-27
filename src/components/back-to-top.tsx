@@ -2,6 +2,7 @@
 import React, { useEffect } from "react";
 import Image from 'next/image';
 import Link from 'next/link';
+import React, { CSSProperties } from 'react';
 import whatsapp_png from '@/assets/img/home-04/footer/whatsapp.png';
 
 
