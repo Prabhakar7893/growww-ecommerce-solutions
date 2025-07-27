@@ -1,16 +1,20 @@
-// src/app/(blog)/blog-details/[id]/page.tsx
-
 import { Metadata } from "next";
 import { blog_data } from "@/data/blog-data";
 import BlogDetailsMain from "@/pages/blog/blog-details";
+import { type InferGetStaticPropsType } from "next"; // optional
 
-// Dynamic metadata export
 export const metadata: Metadata = {
   title: "Growww - Blog Details page",
 };
 
-// This is how Next.js App Router expects props
-export default function BlogDetailsPage({ params }: { params: { id: string } }) {
+// ✅ Fix type
+type BlogDetailsPageProps = {
+  params: {
+    id: string;
+  };
+};
+
+export default async function BlogDetailsPage({ params }: { params: { id: string } }) {
   const blog = blog_data.find((blog) => blog.id === Number(params.id));
 
   return blog ? (
