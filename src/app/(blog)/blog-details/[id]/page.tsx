@@ -13,6 +13,7 @@ type BlogDetailsPageProps = {
 };
 
 export default function BlogDetailsPage({ params }: BlogDetailsPageProps) {
+  const { id } = params;
   const blogId = Number(params.id); // convert string to number
   const blog = blog_data.find((blog) => blog.id === blogId);
 
