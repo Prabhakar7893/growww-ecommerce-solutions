@@ -3,11 +3,12 @@ import React from 'react';
 import { ArrowBg, RightArrowTwo } from '../svg';
 import Link from 'next/link';
 import { useTheme } from 'next-themes';
+import FooterFour from "@/layouts/footers/footer-four";
 
 const HeroBannerFour = () => {
   const { theme } = useTheme(); 
 
-  const handleScroll = (e) => {
+  const handleScroll = (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
     const target = document.getElementById('grw-ftr-012');
     if (target) {
