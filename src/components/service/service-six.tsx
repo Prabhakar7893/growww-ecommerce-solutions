@@ -6,13 +6,19 @@ import ser_img_1 from "@/assets/img/inner-service/service/service-1.jpg";
 import ser_img_2 from "@/assets/img/inner-service/service/service-2.jpg";
 import ser_img_3 from "@/assets/img/inner-service/service/service-3.jpg";
 import ser_img_4 from "@/assets/img/inner-service/service/service-4.jpg";
+import web_dev from "@/assets/img/allimages/Website Development.png";
+import shop_dev from "@/assets/img/allimages/Shopify Development.png";
+import ecm_dev from "@/assets/img/allimages/E-commerce Development.png";
+import wordpress from "@/assets/img/allimages/WordPress Development.png";
+import payment_intg from "@/assets/img/allimages/Payment Gateway Integrations.png";
+import checkout_magic from "@/assets/img/allimages/Simple & Magic Checkouts.png";
 import { RightArrow, ShapeTwo } from "../svg";
 import Link from "next/link";
 
 const service_data = [
   {
     id: 1,
-    img: ser_img_1,
+    img: web_dev,
     subtitle: "Web Services",
     title: "Website Development", 
     text: "We build fast, responsive, and user-focused websites tailored to your business goals. Whether it's a portfolio, company website, or landing page — we make your online presence count.",
@@ -25,7 +31,7 @@ const service_data = [
   },
   {
     id: 2,
-    img: ser_img_2,
+    img: shop_dev,
     subtitle: "Shopify Experts",
     title: "Shopify Development",
     text: "Power your eCommerce journey with custom Shopify solutions. From theme design to checkout customizations — we create fast, beautiful, and high-converting stores.",
@@ -38,7 +44,7 @@ const service_data = [
   },
   {
     id: 3,
-    img: ser_img_3,
+    img: ecm_dev,
     subtitle: "Digital Commerce",
     title: "E-commerce Development",
     text: "We create scalable, secure eCommerce platforms using the latest technologies. Whether it’s Shopify, WooCommerce, or custom solutions — we build to sell.",
@@ -51,7 +57,7 @@ const service_data = [
   },
   {
     id: 4,
-    img: ser_img_4,
+    img: wordpress,
     subtitle: "CMS Solutions",
     title: "WordPress Development",
     text: "From lightweight blogs to advanced business sites, our WordPress services give you flexibility, control, and a beautiful front end — all powered by a strong backend.",
@@ -64,7 +70,7 @@ const service_data = [
   },
   {
     id: 5,
-    img: ser_img_4,
+    img: payment_intg,
     subtitle: "Secure Transactions",
     title: "Payment Gateway Integrations",
     text: "Integrate secure, multi-platform payment gateways into your website or app — supporting Stripe, Razorpay,and more.",
@@ -77,7 +83,7 @@ const service_data = [
   },
    {
     id: 6,
-    img: ser_img_2,
+    img: checkout_magic,
     subtitle: "Smart Checkout UX",
     title: "Simple & Magic Checkouts",
     text: "We design checkout flows that reduce cart abandonment and boost conversions — frictionless, fast, and tailored to your audience.",

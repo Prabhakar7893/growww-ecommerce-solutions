@@ -2,11 +2,15 @@ import React from "react";
 import { UpArrow } from "../svg";
 import Image from "next/image";
 import Link from "next/link";
+import arya_coll from "@/assets/img/allimages/Arya Collections.png";
+import bram_by from "@/assets/img/allimages/Brham.png";
+import ravi_gold from "@/assets/img/allimages/Raveendra Gold.png";
+import sls_fashio from "@/assets/img/allimages/SLS Fashion.png";
 
 const portfolio_data = [
   {
     id: 1,
-    img: "/assets/img/inner-project/portfolio-col-2/port-4.jpg",
+    img: arya_coll,
     category: "Clothing & Jewellery",
     year: "2024",
     title: "Arya Collections",
@@ -14,7 +18,7 @@ const portfolio_data = [
   },
   {
     id: 2,
-    img: "/assets/img/inner-project/portfolio-col-2/port-4.jpg",
+    img: bram_by,
     category: "Booking",
     year: "2024",
     title: "Brham by Brahm",
@@ -22,7 +26,7 @@ const portfolio_data = [
   },
   {
     id: 3,
-    img: "/assets/img/inner-project/portfolio-col-2/port-3.jpg",
+    img: ravi_gold,
     category: "Jewellery",
     year: "2025",
     title: "Raveendra Gold",
@@ -30,7 +34,7 @@ const portfolio_data = [
   },
   {
     id: 4,
-    img: "/assets/img/inner-project/portfolio-col-2/port-2.jpg",
+    img: sls_fashio,
     category: "Fashion",
     year: "2025",
     title: "SLS Fashion World",
