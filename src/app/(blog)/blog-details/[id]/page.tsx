@@ -25,4 +25,4 @@ export default function BlogDetailsPage({ params }: BlogDetailsPageProps) {
       Blog not found with id: {params.id}
     </div>
   );
-}
+};
