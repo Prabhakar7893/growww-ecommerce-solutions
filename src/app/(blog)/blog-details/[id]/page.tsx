@@ -1,14 +1,11 @@
-// src/app/(blog)/blog-details/[id]/page.tsx
-
 import { Metadata } from "next";
 import { blog_data } from "@/data/blog-data";
-import BlogDetailsMain from "@/pages/blog/blog-details";
+import BlogDetailsMain from "@/components/blog/blog-details"; 
 
 export const metadata: Metadata = {
   title: "Growww - Blog Details page",
 };
 
-// Correctly typed according to Next.js App Router dynamic route
 type BlogDetailsPageProps = {
   params: {
     id: string;
@@ -16,13 +13,17 @@ type BlogDetailsPageProps = {
 };
 
 export default function BlogDetailsPage({ params }: BlogDetailsPageProps) {
-  const blog = blog_data.find((blog) => blog.id === Number(params.id));
+  const blogId = Number(params.id); // convert string to number
+  const blog = blog_data.find((blog) => blog.id === blogId);
 
-  return blog ? (
-    <BlogDetailsMain blog={blog} />
-  ) : (
-    <div className="text-center pt-100">
-      Blog not found with id: {params.id}
-    </div>
-  );
-};
+  if (!blog) {
+    return (
+      <div className="text-center pt-24">
+        <h2>Blog not found</h2>
+        <p>ID: {params.id}</p>
+      </div>
+    );
+  }
+
+  return <BlogDetailsMain blog={blog} />;
+}
