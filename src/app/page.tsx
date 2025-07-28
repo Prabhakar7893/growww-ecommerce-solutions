@@ -9,7 +9,6 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
-    <h1>Hello from Growww!</h1>;
       <HomeFourMain />
     </>
   );
