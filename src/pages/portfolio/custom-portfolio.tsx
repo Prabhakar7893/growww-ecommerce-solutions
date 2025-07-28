@@ -8,8 +8,27 @@ import Link from "next/link";
 import FooterFour from "@/layouts/footers/footer-four";
 
 const Portfolio = () => {
+
+  type Project = {
+  id: number;
+  title: string;
+  client: string;
+  category: string;
+  image: string;
+  requirements: string[];
+  challenges: string[];
+  solutions: string[];
+  outcome: string;
+  businessImpact: string;
+  technologies: string[];
+  timeline: string;
+  teamSize: string;
+  project_link: string;
+};
+
+const [selectedProject, setSelectedProject] = useState<Project | null>(null);
   
-  const [selectedProject, setSelectedProject] = useState(null);
+  //const [selectedProject, setSelectedProject] = useState(null);
 
   const projects = [
     {
