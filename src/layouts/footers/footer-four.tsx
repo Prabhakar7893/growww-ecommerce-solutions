@@ -27,12 +27,10 @@ export default function FooterFour() {
                   <h4 className="tp-footer-3-title">Quick Links</h4>
                   <div className="tp-footer-3-menu">
                     <ul>
-                      <li><a href="#">Home</a></li>
-                      <li><a href="#">Design</a></li>
-                      <li><a href="#">Development</a></li>
-                      <li><a href="#">Marketing</a></li>
-                      <li><a href="/portfolio-standard">Portfolio</a></li>
-                      <li><a href="#">Cart</a></li>
+                      <li><a href="/">Home</a></li>
+                      <li><a href="/service">Services</a></li>
+                      <li><a href="/growww-wato">Product</a></li>
+                      <li><a href="/portfolio-grid-col-4">Portfolio</a></li>
                     </ul>
                   </div>
                 </div>
