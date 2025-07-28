@@ -2,9 +2,30 @@
 import React  from "react";
 import { useState, useEffect, useRef } from "react";
 import Wrapper from "@/layouts/wrapper";
+import Image from 'next/image';
 
 const Portfolio = () => {
-  const [selectedProject, setSelectedProject] = useState(null);
+
+  interface Project {
+  id: number;
+  title: string;
+  client: string;
+  category: string;
+  image: string;
+  requirements: string[];
+  challenges: string[];
+  solutions: string[];
+  outcome: string;
+  businessImpact: string;
+  technologies: string[];
+  timeline: string;
+  teamSize: string;
+  project_link?: string; // optional, if not all have it
+}
+
+const [selectedProject, setSelectedProject] = useState<Project | null>(null);
+
+  //const [selectedProject, setSelectedProject] = useState(null);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const heroRef = useRef(null);
 
@@ -863,7 +884,7 @@ const Portfolio = () => {
               onClick={() => setSelectedProject(project)}
             >
               <div style={{ position: 'relative', overflow: 'hidden' }}>
-                <img 
+                <Image
                   src={project.image} 
                   alt={project.title}
                   style={{
@@ -946,7 +967,7 @@ const Portfolio = () => {
         <div className="modal-overlay">
           <div className="modal-content animate-modal-entrance">
             <div style={{ position: 'relative' }}>
-              <img 
+              <Image
                 src={selectedProject.image} 
                 alt={selectedProject.title}
                 style={{
