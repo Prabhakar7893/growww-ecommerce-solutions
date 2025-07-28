@@ -6,6 +6,10 @@ import arya_coll from "@/assets/img/allimages/Arya Collections.png";
 import bram_by from "@/assets/img/allimages/Brham.png";
 import ravi_gold from "@/assets/img/allimages/Raveendra Gold.png";
 import sls_fashio from "@/assets/img/allimages/SLS Fashion.png";
+import madhurika_attairs from "@/assets/img/allimages/Madhurika.png";
+import my_indian_store from "@/assets/img/allimages/My Indian Store.png";
+import Subhkriti from "@/assets/img/allimages/Subhkriti.png";
+import brahm_by_bhram from "@/assets/img/allimages/Brham.png";
 
 const portfolio_data = [
   {
@@ -42,7 +46,7 @@ const portfolio_data = [
   },
   {
     id: 5,
-    img: "/assets/img/inner-project/portfolio-col-2/port-1.jpg",
+    img: madhurika_attairs,
     category: "Clothing",
     year: "2025",
     title: "Madhurika Attires",
@@ -50,7 +54,7 @@ const portfolio_data = [
   },
   {
     id: 6,
-    img: "/assets/img/inner-project/portfolio-col-2/port-5.jpg",
+    img: my_indian_store,
     category: "Food Delivery",
     year: "2025",
     title: "My Indian Store",
@@ -58,7 +62,7 @@ const portfolio_data = [
   },
   {
     id: 7,
-    img: "/assets/img/inner-project/portfolio-col-2/port-6.jpg",
+    img: Subhkriti,
     category: "Gifts",
     year: "2025",
     title: "Subhkriti",
@@ -66,7 +70,7 @@ const portfolio_data = [
   },
   {
     id: 8,
-    img: "/assets/img/inner-project/portfolio-col-2/port-7.jpg",
+    img: brahm_by_bhram,
     category: "Booking",
     year: "2024",
     title: "Brham by Brahm",
