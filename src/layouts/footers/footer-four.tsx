@@ -3,6 +3,7 @@ import Image from 'next/image';
 import logo from '@/assets/img/logo/logo-white.png';
 import { RightArrow, SvgBgSm } from '@/components/svg';
 import Link from 'next/link';
+import { CSSProperties } from 'react';
 import whatsapp_png from '@/assets/img/home-04/footer/whatsapp.png';
 
 
