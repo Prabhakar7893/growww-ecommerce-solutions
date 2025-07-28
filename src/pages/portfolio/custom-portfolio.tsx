@@ -23,7 +23,7 @@ const Portfolio = () => {
   technologies: string[];
   timeline: string;
   teamSize: string;
-  project_link: string;
+  project_link?: string;
 };
 
 const [selectedProject, setSelectedProject] = useState<Project | null>(null);
